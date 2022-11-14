@@ -15,7 +15,7 @@ function App() {
    const handleSubmit = (e) =>{
     e.preventDefault();
     // console.log(info)
-    AddUser(info)
+    AddUser(info);
 
    }
   return (
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default App;
+  
