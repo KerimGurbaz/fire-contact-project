@@ -53,7 +53,7 @@ const FormComponent = ({info, setInfo}) => {
 
       <Box style={{ backgroundColor: "white", padding: "20px" }}>
         <form>
-          <Stack spacing={3} direction="column">
+          <Stack spacing={4} direction="column">
             <TextField
               variant="outlined"
               name="username"
