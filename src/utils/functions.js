@@ -35,7 +35,8 @@ export const useFetch = ()=>{
                 setisLoading(false)
             }
         })
+        return {isLoading,contactList};
     },[])
 
-    return {isLoading,contactList};
+
 }

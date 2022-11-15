@@ -9,7 +9,10 @@ import {
   Paper,
 } from "@mui/material";
 
+import { useFetch } from "../../utils/functions";
+
 const Contacts = () => {
+  const {isLoading, contactList} = useFetch();
   return (
     <div>
       <h2 className="contact-header">Contacts</h2>
